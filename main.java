@@ -2,7 +2,6 @@
  * Created by Wezley on 1/23/16.
  */
 
-import java.sql.Connection;
 import java.util.*;
 import java.io.*;
 
@@ -44,19 +43,5 @@ public class main
                 currentPage = newPageInfo[0];
             }
         }
-    }
-
-    public static Connection getConnection() throws Exception
-    {
-        try
-        {
-
-
-        }
-        catch (Exception e)
-        {
-            System.out.println(e);
-        }
-        return null;
     }
 }
